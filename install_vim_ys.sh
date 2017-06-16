@@ -17,3 +17,5 @@ git submodule update --init --recursive
 ./install.py
 echo "vim PluginInstall..."
 vim +PluginInstall +qall
+echo "install ctags"
+sudo apt-get install exuberant-ctags
