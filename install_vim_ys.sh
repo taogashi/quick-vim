@@ -19,3 +19,5 @@ echo "vim PluginInstall..."
 vim +PluginInstall +qall
 echo "install ctags"
 sudo apt-get install exuberant-ctags
+echo "install astyle"
+sudo apt-get install astyle
