@@ -1,3 +1,5 @@
+update for ubuntu20
+
 ## 包含的插件
 1. YCM补全你懂的；
 2. markdown在网页中的实时预览以及数学公式的支持；
@@ -12,9 +14,10 @@
 ```
 # ctags要求
 sudo apt install exuberant-ctags
-# ycm要求
-sudo apt install llvm-10-dev
 # vim使能系统粘贴板功能
+sudo apt-add-repository ppa:jonathonf/vim
+sudo apt-update
+sudo apt remove vim vim-common vim-runtime vim-tiny
 sudo apt install vim-gnome
 # 自动格式化
 sudo apt install clang-format
