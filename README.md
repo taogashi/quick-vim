@@ -32,4 +32,4 @@ sudo apt install clang-format
 7. sudo apt-get install python3-dev
 8. `git submodule update --init --recursive`
 9. `python3 install.py --clangd-completer`
-10. vim -c "PluginInstall" -c "call mkdp#util#install()"
+10. `vim +PluginInstall +"call mkdp#util#install()" +qall`
