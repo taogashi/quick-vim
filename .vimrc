@@ -14,7 +14,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'iamcco/mathjax-support-for-mkdp' 
-Plugin 'iamcco/markdown-preview.vim' 
+Plugin 'iamcco/markdown-preview.nvim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'google/vim-maktaba'
 Plugin 'google/vim-codefmt'

@@ -14,9 +14,9 @@ cd YouCompleteMe
 echo "install python3 if neccessary"
 sudo apt-get install python3-dev
 git submodule update --init --recursive
-./install.py
+python3 install.py --clangd-completer
 echo "vim PluginInstall..."
-vim +PluginInstall +qall
+vim +PluginInstall +"call mkdp#util#install()" +qall
 echo "install ctags"
 sudo apt-get install exuberant-ctags
 echo "install astyle"
